@@ -5,5 +5,5 @@ def reverse_each_word(string)
   arr.collect do |word|
     arr << word.reverse
   end
-
+  arr
 end
